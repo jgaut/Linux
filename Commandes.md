@@ -51,3 +51,8 @@ apt-get remove rsyslog
 apt-get --purge autoremove
 dpkg -P rsyslog
 ```
+
+#### Test de résolution de nom de domaine
+```
+curl <addr1> --resolve <addr2> # resolve address 1 to address 2. Useful for testing.
+```
