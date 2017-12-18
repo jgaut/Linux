@@ -56,3 +56,10 @@ dpkg -P rsyslog
 ```
 curl <addr1> --resolve <addr2> # resolve address 1 to address 2. Useful for testing.
 ```
+
+#### Supprimer des fichiers/répertoires selon leur date d'ancienneté
+```
+Trouver et supprimer les fichiers de plus de 7 jours en bash
+find /mon_rep/mes_fichiers -type f -mtime +7 -exec /bin/rm -f {} \;
+find /mon_rep/mes_fichiers -type f -mtime +7 -delete
+```
