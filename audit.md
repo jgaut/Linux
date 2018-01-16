@@ -8,3 +8,4 @@
 ```-a exit,always  -F dir=/home/splunk/splunk/etc/apps -F perm=warx -F key=splunk_apps_changes```
 ```-w /etc/rsyslog.conf -p wa -k rsyslog_changes```
 
+
