@@ -63,3 +63,8 @@ Trouver et supprimer les fichiers de plus de 7 jours en bash
 find /mon_rep/mes_fichiers -type f -mtime +7 -exec /bin/rm -f {} \;
 find /mon_rep/mes_fichiers -type f -mtime +7 -delete
 ```
+
+#### Création archive tar.gz
+```
+tar zcvf votre_archive.tar.gz votre_dossier/
+```
