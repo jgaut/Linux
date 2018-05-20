@@ -1,4 +1,4 @@
-#logrotate
+# logrotate
 
 #### Fichier exemple : /etc/logrotate.d/firewall
 ```
