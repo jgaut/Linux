@@ -18,3 +18,9 @@ if $fromhost-ip=='172.16.222.111' then ?prod2
 $template DynaFile,"/var/log/%FROMHOST-IP%/%syslogfacility-text%.log"
 *.* -?DynaFile
 ```
+
+```
+$umask 0022
+$FileCreateMode 0655
+$DirCreateMode 0755
+```
