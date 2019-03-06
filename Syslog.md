@@ -3,6 +3,7 @@
 #### Documentation officielle avec les variables d'entrée
 ```
 [Documentation](http://www.rsyslog.com/doc/v8-stable/configuration/properties.html)
+https://serverfault.com/questions/400293/syslog-ip-ranges-to-specific-files-using-rsyslog
 ```
 
 #### Traitement des logs
